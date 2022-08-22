@@ -43,10 +43,13 @@ void doingStuff(int argCee, string yksi, string kaksi, string kolme)
 void doingStuff(int argCee, string yksi)
 {
 	//should run koska 3 parametria
-	cout << "Argument count: " << argCee << endl;
-	cout << yksi << endl;
-	if (yksi == "help")
-		printTest();
+
+	if (yksi == "help" || yksi == "HELP" || yksi == "h")
+	{
+		printHelp();
+	}
+	else if (yksi == "options" || yksi == "o")
+		printOptions();
 	else
 		cout << "???\nInvalid command";
 

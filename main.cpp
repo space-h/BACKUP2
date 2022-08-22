@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 
 	else if (argc == 2)
 	{
-		doingStuff(argc, argv[1]); //here we choose which "doingStuff" is being ran. Function overloading, maybe used, maybe not.
+		doingStuff(argc, argv[1]); //here we choose which "doingStuff" is being ran. Function overloading
 
 	}
 
@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
 
 	else if (argc == 3)
 	{
-		doingStuff(argc, argv[1]); //here we choose which "doingStuff" is being ran. Function overloading, maybe used, maybe not.
+		doingStuff(argc, argv[1]); //here we choose which "doingStuff" is being ran. Function overloading
 
 	}
 #endif
